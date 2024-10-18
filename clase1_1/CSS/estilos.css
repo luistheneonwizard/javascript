@@ -1,0 +1,40 @@
+#caja{
+    width: 300px;
+    
+}
+
+#contenedor{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+#sumar{
+    background-color: rgb(200, 165, 233);
+}
+
+#resta{
+    background-color: rgb(200, 165, 233);
+}
+
+#dividir{
+    background-color: rgb(200, 165, 233);
+}
+
+#multiplicar{
+    background-color: rgb(200, 165, 233);
+}
+
+#igual{
+    background-color: rgb(200, 165, 233);
+}
+
+#resultado{
+    width: 100%;
+}
+
+#pantalla{
+    width: 100%;
+}
