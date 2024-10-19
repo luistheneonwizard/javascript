@@ -1,11 +1,11 @@
 #caja{
-    width: 300px;
+    width: 400px;
     
 }
 
 #contenedor{
     width: 100%;
-    height: 100px;
+    height: 120px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     
@@ -15,7 +15,7 @@
     background-color: rgb(200, 165, 233);
 }
 
-#resta{
+#restar{
     background-color: rgb(200, 165, 233);
 }
 
@@ -28,6 +28,10 @@
 }
 
 #igual{
+    background-color: rgb(200, 165, 233);
+}
+
+#borrar{
     background-color: rgb(200, 165, 233);
 }
 

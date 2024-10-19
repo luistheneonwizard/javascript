@@ -13,25 +13,26 @@
 <body>
     <div id="caja">
         
-   
+               <input type="text" id="pantalla"><br>
 
-            <input type="text" id="pantalla" disable placeholder="calcúlelo ahí"><br>
         <div id="contenedor">
-            <button id="sumar" onclick="sumar()">+</button>
-            <button id="n1" onclick="agregarnumero()">1</button>
-            <button id="n2" onclick="agregarnumero()">2</button>
-            <button id="n3" onclick="agregarnumero()">3</button>
-            <button id="resta" onclick="resta()">-</button>
-            <button id="n4" onclick="agregarnumero()">4</button>
-            <button id="n5" onclick="agregarnumero()">5</button>
-            <button id="n6" onclick="agregarnumero()">6</button>
-            <button id="multiplicar" onclick="multiplicar()">*</button>
-            <button id="n7" onclick="agregarnumero()">7</button>
-            <button id="n8" onclick="agregarnumero()">8</button>
-            <button id="n9" onclick="agregarnumero()">9</button>
-            <button id="dividir" onclick="dividir()">/</button>
-            <button id="n0" onclick="agregarnumero()">0</button>
-            <button id="igual" onclick="calcular()">=</button>
+            <button id="sumar" onclick="operaciones('suma')">+</button>
+            <button id="n1" onclick="n(1)">1</button>
+            <button id="n2" onclick="n(2)">2</button>
+            <button id="n3" onclick="n(3)">3</button>
+            <button id="restar" onclick="operaciones('resta')">-</button>
+            <button id="n4" onclick="n(4)">4</button>
+            <button id="n5" onclick="n(5)">5</button>
+            <button id="n6" onclick="n(6)">6</button>
+            <button id="multiplicar" onclick="operaciones('multiplicacion')">*</button>
+            <button id="n7" onclick="n(7)">7</button>
+            <button id="n8" onclick="n(8)">8</button>
+            <button id="n9" onclick="n(9)">9</button>
+            <button id="dividir" onclick="operaciones('division')">/</button>
+            <button id="n0" onclick="n(0)">0</button>
+            <button id="igual" onclick="igual()">=</button>
+            <button id="AC" onclick="borrar()">AC</button>
+         
         </div>
 
     </div>
